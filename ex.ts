@@ -1,4 +1,4 @@
-mi/**
+/**
  * kana-display
  */
 
