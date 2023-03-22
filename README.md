@@ -40,7 +40,7 @@ The display block can display hiragana / katakana / some symbols that cannot be 
 If you want to output a numerical value, you can display it by using a block that converts the numerical value to a character string.  
  
 The fonts for slashes (/ and ／) and backslashes (\ and ＼) are different for half-width / full-width characters, but there is no difference in fonts for other characters.  
- * You need to enter two half-width backslashes (\\) like \\\. (Example: When displaying \\(^o^)/ => \\\\(^o^)/)
+ * You need to enter two half-width backslashes (\\) like \\\\. (Example: When displaying \\(^o^)/ => \\\\(^o^)/)
  
 You can set up to the 4th factor.  
  1st argument => Display string (required)  
