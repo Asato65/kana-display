@@ -19,7 +19,7 @@ In the case of redistribution, I would be grateful if you could write that fact 
 数値を出力したい場合は, 数値を文字列に変換するブロックを使うと表示することが可能です。
  
 スラッシュ(/と／), バックスラッシュ(\と＼)は半角/全角でフォントが異なりますが, 他は半角/全角によるフォントの差異はありません。  
- ※半角のバックスラッシュ(\)は, \\\のように2つ入力する必要があります。(例: \\(^o^)/を表示する場合 => \\\(^o^)/)
+ ※半角のバックスラッシュ(\)は, \\\のように2つ入力する必要があります。(例: \\(^o^)/を表示する場合 => \\\\(^o^)/)
  
 第4因数まで設定できます。  
  第1引数 => 表示文字列(必須)  
@@ -40,7 +40,7 @@ The display block can display hiragana / katakana / some symbols that cannot be 
 If you want to output a numerical value, you can display it by using a block that converts the numerical value to a character string.  
  
 The fonts for slashes (/ and ／) and backslashes (\ and ＼) are different for half-width / full-width characters, but there is no difference in fonts for other characters.  
- * You need to enter two half-width backslashes (\) like \\. (Example: When displaying \(^o^)/ => \\(^o^)/)
+ * You need to enter two half-width backslashes (\\) like \\\. (Example: When displaying \\(^o^)/ => \\\\(^o^)/)
  
 You can set up to the 4th factor.  
  1st argument => Display string (required)  
