@@ -18,8 +18,8 @@ In the case of redistribution, I would be grateful if you could write that fact 
 表示ブロックは、本来表示できないひらがな／カタカナ／一部記号の表示ができます。また、普通の英数字（半角/全角対応）も表示可能です。  
 数値を出力したい場合は, 数値を文字列に変換するブロックを使うと表示することが可能です。
  
-スラッシュ(/と／), バックスラッシュ(\と＼)は半角/全角でフォントが異なりますが, 他は半角/全角によるフォントの差異はありません。  
- ※半角のバックスラッシュ(\)は, \\\のように2つ入力する必要があります。(例: \\(^o^)/を表示する場合 => \\\\(^o^)/)
+スラッシュ(/と／), バックスラッシュ(\\と＼)は半角/全角でフォントが異なりますが, 他は半角/全角によるフォントの差異はありません。  
+ ※半角のバックスラッシュ(\\)は, \\\\のように2つ入力する必要があります。(例: \\(^o^)/を表示する場合 => \\\\(^o^)/)
  
 第4因数まで設定できます。  
  第1引数 => 表示文字列(必須)  
@@ -39,7 +39,7 @@ There are two blocks to be added: a display block and a block that converts numb
 The display block can display hiragana / katakana / some symbols that cannot be displayed originally. In addition, ordinary alphanumeric characters (half-width / full-width compatible) can also be displayed.  
 If you want to output a numerical value, you can display it by using a block that converts the numerical value to a character string.  
  
-The fonts for slashes (/ and ／) and backslashes (\ and ＼) are different for half-width / full-width characters, but there is no difference in fonts for other characters.  
+The fonts for slashes (/ and ／) and backslashes (\\ and ＼) are different for half-width / full-width characters, but there is no difference in fonts for other characters.  
  * You need to enter two half-width backslashes (\\) like \\\\. (Example: When displaying \\(^o^)/ => \\\\(^o^)/)
  
 You can set up to the 4th factor.  
@@ -61,36 +61,3 @@ Translated by Google.
 # Author
 
 Asato.
-
-
-
-> このページを開く [https://asato65.github.io/kana-display/](https://asato65.github.io/kana-display/)
-
-## 拡張機能として使用
-
-このリポジトリは、MakeCode で **拡張機能** として追加できます。
-
-* [https://makecode.microbit.org/](https://makecode.microbit.org/) を開く
-* **新しいプロジェクト** をクリックしてください
-* ギアボタンメニューの中にある **拡張機能** をクリックしてください
-* **https://github.com/asato65/kana-display** を検索してインポートします。
-
-## このプロジェクトを編集します ![ビルド ステータス バッジ](https://github.com/asato65/kana-display/workflows/MakeCode/badge.svg)
-
-MakeCode でこのリポジトリを編集します。
-
-* [https://makecode.microbit.org/](https://makecode.microbit.org/) を開く
-* **読み込む** をクリックし、 **URLから読み込む...** をクリックしてください
-* **https://github.com/asato65/kana-display** を貼り付けてインポートをクリックしてください
-
-## ブロックのプレビュー
-
-この画像はマスター内の最後のコミットからのブロックコードを示しています。
-このイメージは更新に数分かかる場合があります。
-
-![生成されたブロック](https://github.com/asato65/kana-display/raw/master/.github/makecode/blocks.png)
-
-#### メタデータ (検索、レンダリングに使用)
-
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
